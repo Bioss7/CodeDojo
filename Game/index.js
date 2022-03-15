@@ -7,7 +7,7 @@ while (name == '' || name == null) {
 
 alert(name + ', я загадал число от 1 до 100. Попробуй отгадать его за наименьшее количество попыток. После каждой попытки я скажу "мало", "много" или "угадал"');
 
-let number = 42;
+let number = Math.ceil(Math.random() * 100);
 let guess = prompt('Какое число я загадал?');
 let numberOfGuessses = 0;
 
